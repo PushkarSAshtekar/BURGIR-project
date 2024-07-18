@@ -4,6 +4,7 @@ import React from "react";
 import Slider from "react-slick";
 import { BsArrowRight } from "react-icons/bs";
 import b from "../assets/Burgermain.jpg";
+
 import b1 from "../assets/Burgermain1.jpg";
 import b2 from "../assets/bmain.jpg";
 import b3 from "../assets/bmain1.jpg";

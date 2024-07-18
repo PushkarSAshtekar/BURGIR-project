@@ -1,21 +1,23 @@
-import aloo from '../../assets/Alootiki.png'
-import paneer from '../../assets/Paneertika.png'
-import masala from '../../assets/Masala.png'
-import spicy from '../../assets/Spicy.png'
-import cheeseburger from "../../assets/Cheeseburger.png"
-import cripsy from "../../assets/crispy.png"
-import tandoor from "../../assets/tandoor.png"
-import falafal from "../../assets/falafal.png"
-import soya from "../../assets/soya.png"
-import veg from "../../assets/veg.png"
-
+import aloo from '../../assets/Alootiki.jpeg'
+import paneer from '../../assets/Paneertika.jpeg'
+import masala from '../../assets/Masala.jpeg'
+import spicy from '../../assets/Spicy.jpeg'
+import cheeseburger from "../../assets/Cheeseburger.jpeg"
+import cripsy from "../../assets/crispy.jpeg"
+import tandoor from "../../assets/tandoor.jpeg"
+import falafal from "../../assets/Mushroom.jpg"
+import soya from "../../assets/soya.jpeg"
+import veg from "../../assets/veg.jpg"
+import McChicken from "../../assets/McChicken.jpg"
+import CrispyChicken from "../../assets/CrispyChicken.jpg"
 
 import vlogo from '../../assets/veglogo.png'
 import vnlogo from '../../assets/nonveg.png'
 import Bevrages from "../../assets/bevrages.png"
 
- import Cktika from '../../assets/Chickentika.png'
- import Mraja from '../../assets/Mac.png'
+ import Cktika from '../../assets/Chickentika.jpeg'
+ import Mraja from '../../assets/Mac.jpeg'
+ import Grilled from '../../assets/Grilled Chicken Burger.jpeg'
 
 
 
@@ -81,9 +83,9 @@ const Menuburgerlist=[
     {
         id:8,
         Category:"Veg",
-        Name:"Falafel Burger",
+        Name:"Mushroom Veggie Burger",
         Img:falafal,
-        Discription:"Crispy falafel patty, lettuce, tomato, tahini sauce, in a soft bun.",
+        Discription:"Mushrooms are the base for this hearty veggie burger that relies on Parmigiano-Reggiano, oregano, and garlic for a burst of flavor.",
         price:169
     },
     {
@@ -121,24 +123,24 @@ const Menuburgerlist=[
      {
         id:13,
         Category:"Non-Veg",
-        Name:"Chicken Maharaja Mac",
-        Img:Mraja,
-        Discription:"Regal chicken patty crowned with special sauce, lettuce, cheese, in bun.",
+        Name:"McChicken Burger",
+        Img:McChicken,
+        Discription:"A classic from BURGIR, featuring a crispy chicken patty..",
         price:129
      },
      {
         id:14,
         Category:"Non-Veg",
-        Name:"Chicken Maharaja Mac",
-        Img:Mraja,
-        Discription:"Regal chicken patty crowned with special sauce, lettuce, cheese, in bun.",
+        Name:"Crispy Chicken Burger",
+        Img:CrispyChicken,
+        Discription:"A crispy chicken fillet with fresh lettuce, mayo, and a toasted bun for a delicious bite.",
         price:129
      },
      {
         id:15,
         Category:"Drinks",
         Name:"Grilled Chicken Burger",
-        Img:Mraja,
+        Img:Grilled,
         Discription:"Juicy grilled chicken nestled with lettuce, tomato, and tangy sauce.",
         price:139
      },
